@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+typedef struct person
+{
+char lastname[20];
+char firstname[20];
+char city[20];
+}
+person_t;
+int compare(void *pa, void *pb)
+{0
