@@ -24,3 +24,17 @@ whlie((a=fgetc(fb))!=EOF);
 {
 printf("%c",a);}
 size_t count=0;
+whlie((fp,"%c %c #c" string1,string2,string3))
+{
+strcpy(database[count].lastname,string1);
+strcpy(database[count].firstname,string2);
+strcpy(database[count].city,string3);
+++count;
+}
+for(i=o;i<count;i++)
+{
+printf("%c",database[i].lastname);
+printf("%c",database[i].firstname);
+printf("%c",database[i].city);
+fclose(fp);
+}
