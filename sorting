@@ -10,3 +10,17 @@ char city[20];
 person_t;
 int compare(void *pa, void *pb)
 {0
+char *lna=((person_t*)pa)->lastname;
+char *lnb=((person_t*)pb)->firstname;
+return strcmp(lna,lnb);
+}
+int main(void)
+{
+person_t database[100];
+char string1,string2,string3,a,b;
+FILE *fp;
+fp=fopen("stinghw.txt","r+w");
+whlie((a=fgetc(fb))!=EOF);
+{
+printf("%c",a);}
+size_t count=0;
