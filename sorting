@@ -9,7 +9,7 @@ char city[20];
 }
 person_t;
 int compare(void *pa, void *pb)
-{0
+{
 char *lna=((person_t*)pa)->lastname;
 char *lnb=((person_t*)pb)->firstname;
 return strcmp(lna,lnb);
