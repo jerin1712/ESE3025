@@ -38,4 +38,4 @@ printf("%c",database[i].firstname);
 printf("%c",database[i].city);
 fclose(fp);
 }
-}
+
