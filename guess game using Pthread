@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 int a = 0;
-int b = 0
+int b = 0;
 int num = 0;
 
 void* decremental_search(int dfgh)
