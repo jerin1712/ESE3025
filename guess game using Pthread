@@ -53,4 +53,4 @@ if(b > a)
         printf("Player 2 with incremental search wins\n in %d attempts\n", b);
     printf("Thank you\n");
 return 0;
-}
+} v
